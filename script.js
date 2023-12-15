@@ -1,5 +1,7 @@
 function toCase(text) {
-  // write your code here
+  
+	let lo=text.toLowerCase() ,up=text.UpperCase();
+	return lo.concat(`- ${up}`);
 }
 
 // DO not change the code below
